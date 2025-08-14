@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: #433B34;
+    font-family: "Forum";
+}
+
+header {
+	padding-left: 1rem;
+	margin: 0 auto;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 120vh;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 3vh;
+	align-items: left;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: -5vh;
+	justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+	margin-top: 20px;
+	z-index: 1;
+}
+
+#biblioteca{
+	display: flex;
+	height: 92.45vh;
+	margin-top: -7vh;
+}
