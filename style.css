@@ -23,20 +23,21 @@ nav {
 }
 
 nav ul li a {
-	text-decoration: none;
+	text-decoration: underline 1px;
 	color: #fff;
-	font-size: 25px;
+	font-size: 30px;
 }
 
 nav ul li {
 	display: inline-block;
-	margin: 0 3vh;
+	margin: 0 2vh;
 	align-items: left;
 }
 
 nav ul {
+	margin-left: 15vh;
 	list-style: none;
-	margin-top: -5vh;
+	margin-top: -7vh;
 	justify-content: space-between;
 }
 
@@ -47,7 +48,44 @@ nav ul {
 }
 
 #biblioteca{
-	display: flex;
-	height: 92.45vh;
-	margin-top: -7vh;
+	margin-top: -10vh;
+	width: 100%;
+}
+
+#nome {
+	font-family: 'Kapakana';
+	color: #fff;
+	z-index: 1;
+	font-size: 155px;
+	margin-top: -68vh;
+	margin-left: 82vh;
+}
+
+#slogan {
+	font-family: 'Forum';
+	color: #fff;
+	z-index: 1;
+	font-size: 31px;
+	margin-top: -6vh;
+	margin-left: 82vh;
+}
+
+#btnSaibaMais {
+	border-radius: 40px;
+	padding: 20px;
+	padding-left: 110px;
+	padding-right: 110px;
+	margin-left: 150vh;
+	margin-top: 90px;
+	background-color: rgba(192, 192, 192, 0.4);
+	font-family: 'Forum';
+  	color: white;
+  	border: none;
+  	cursor: pointer;
+	font-size: 30px;
+}
+
+#btnSaibaMais span{
+	opacity: 1; 
+  	color: white;
 }
