@@ -19,7 +19,7 @@ nav {
 	align-items: center;
 	display: flex;
 	justify-content: center;
-	gap: 120vh;
+	gap: 105vh;
 }
 
 nav ul li a {
@@ -30,12 +30,11 @@ nav ul li a {
 
 nav ul li {
 	display: inline-block;
-	margin: 0 2vh;
+	margin: 0 3vh;
 	align-items: left;
 }
 
 nav ul {
-	margin-left: 15vh;
 	list-style: none;
 	margin-top: -7vh;
 	justify-content: space-between;
@@ -88,4 +87,80 @@ nav ul {
 #btnSaibaMais span{
 	opacity: 1; 
   	color: white;
+}
+
+#line1 {
+	display: inline;
+}
+
+#line2 {
+	display: inline;
+	margin-top: 4vh;
+	margin-left: auto;
+}
+#Nossos {
+	margin-top: 1vh;
+	display: inline;
+	letter-spacing: 1.5px;
+	color: #fff;
+	font-size: 50px;
+	display: flex;
+	margin-left: 1.5vh;
+}
+
+.favoritos {
+	display: inline-flex;
+	width: 100%;	
+	align-items: left;
+	margin-top: 25vh;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden; /* mantém corte só nas laterais */
+    display: flex;
+    align-items: center;
+}
+
+.carrossel {
+    margin-top: 5vh;
+    display: flex;
+    gap: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card {
+    position: relative;
+    flex: 0 0 auto;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.card img {
+    width: 230px;
+    border-radius: 15px 15px 0 0;
+    display: block;
+}
+
+.quadrado {
+    background-color: #fff;
+    width: 230px;
+    height: 60px;
+    font-size: 20px;
+    position: relative; /* mudou de absolute para relative */
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setaEsquerda {
+    
 }
