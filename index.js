@@ -1,38 +1,60 @@
 const carrossel = document.querySelector('.carrossel');
 const btnEsquerda = document.querySelector('.seta.esquerda');
-const btnDireita = document.querySelector('.seta.direita');
+const btnDireita  = document.querySelector('.seta.direita');
 
-const larguraCard = 260; // largura + gap
 let animando = false;
 
-// Move para a direita
-btnDireita.addEventListener('click', () => {
-    if (animando) return;
-    animando = true;
+function stepSize() {
+  const first = carrossel.querySelector('.card');
+  if (!first) return 0;
+  const styles = getComputedStyle(carrossel);
+  const gap = parseInt(styles.gap) || 0;
+  return first.getBoundingClientRect().width + gap;
+}
 
-    carrossel.style.transition = 'transform 0.3s ease-in-out';
-    carrossel.style.transform = `translateX(-${larguraCard}px)`;
+function next() {
+  if (animando) return;
+  animando = true;
 
-    setTimeout(() => {
-        carrossel.appendChild(carrossel.firstElementChild); // manda primeiro pro fim
-        carrossel.style.transition = 'none';
-        carrossel.style.transform = 'translateX(0)';
-        animando = false;
-    }, 300);
-});
+  const step = stepSize();
+  carrossel.style.transition = 'transform 0.3s ease-in-out';
+  carrossel.style.transform = `translateX(-${step}px)`;
 
-// Move para a esquerda
-btnEsquerda.addEventListener('click', () => {
-    if (animando) return;
-    animando = true;
-
-    carrossel.insertBefore(carrossel.lastElementChild, carrossel.firstElementChild); // último pro início
+  setTimeout(() => {
+    // manda o primeiro card pro final
+    carrossel.appendChild(carrossel.firstElementChild);
+    // reseta o transform sem animação
     carrossel.style.transition = 'none';
-    carrossel.style.transform = `translateX(-${larguraCard}px)`;
+    carrossel.style.transform = 'translateX(0)';
+    animando = false;
+  }, 300);
+}
 
-    setTimeout(() => {
-        carrossel.style.transition = 'transform 0.3s ease-in-out';
-        carrossel.style.transform = 'translateX(0)';
-        setTimeout(() => animando = false, 300);
-    }, 10);
+function prev() {
+  if (animando) return;
+  animando = true;
+
+  const step = stepSize();
+  // coloca o último no início antes de animar
+  carrossel.insertBefore(carrossel.lastElementChild, carrossel.firstElementChild);
+  carrossel.style.transition = 'none';
+  carrossel.style.transform = `translateX(-${step}px)`;
+
+  // anima de volta pra posição 0
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      carrossel.style.transition = 'transform 0.3s ease-in-out';
+      carrossel.style.transform = 'translateX(0)';
+      setTimeout(() => { animando = false; }, 300);
+    });
+  });
+}
+
+btnDireita.addEventListener('click', next);
+btnEsquerda.addEventListener('click', prev);
+
+// acessibilidade: setas no teclado
+carrossel.closest('.carrossel-container').addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') next();
+  if (e.key === 'ArrowLeft')  prev();
 });
