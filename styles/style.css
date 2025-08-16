@@ -1,0 +1,205 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    background-color: #433B34;
+    font-family: "Forum";
+}
+
+header {
+	padding-left: 1rem;
+	margin: 0 auto;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 105vh;
+}
+
+nav ul li a {
+	text-decoration: underline 1px;
+	color: #fff;
+	font-size: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 3vh;
+	align-items: left;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: -7vh;
+	justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+	margin-top: 20px;
+	z-index: 1;
+}
+
+#biblioteca{
+	margin-top: -10vh;
+	width: 100%;
+}
+
+#nome {
+	font-family: 'Kapakana';
+	color: #fff;
+	z-index: 1;
+	font-size: 155px;
+	margin-top: -68vh;
+	margin-left: 82vh;
+}
+
+#slogan {
+	font-family: 'Forum';
+	color: #fff;
+	z-index: 1;
+	font-size: 31px;
+	margin-top: -6vh;
+	margin-left: 82vh;
+}
+
+#btnSaibaMais {
+	border-radius: 40px;
+	padding: 20px;
+	padding-left: 110px;
+	padding-right: 110px;
+	margin-left: 150vh;
+	margin-top: 90px;
+	background-color: rgba(192, 192, 192, 0.4);
+	font-family: 'Forum';
+  	color: white;
+  	border: none;
+  	cursor: pointer;
+	font-size: 30px;
+}
+
+#btnSaibaMais span{
+	opacity: 1; 
+  	color: white;
+}
+
+#line1 {
+	display: inline;
+}
+
+#line2 {
+	display: inline;
+	margin-top: 4vh;
+	margin-left: auto;
+}
+#Nossos {
+	margin-top: 1vh;
+	display: inline;
+	letter-spacing: 1.5px;
+	color: #fff;
+	font-size: 50px;
+	display: flex;
+	margin-left: 1.5vh;
+}
+
+.favoritos {
+	display: inline-flex;
+	width: 100%;	
+	align-items: left;
+	margin-top: 25vh;
+	margin-bottom: 4vh;
+}
+
+.carrossel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+	overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+}
+
+.carrossel {
+    margin-top: 5vh;
+    display: flex;
+    gap: 30px;
+    transition: transform 0.3s ease-in-out;
+    will-change: transform;
+}
+
+.card {
+    position: relative;
+    width: 230px;
+    flex: 0 0 auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform-origin: center bottom;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 15px 15px 0 0;
+}
+
+.quadrado {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    background-color: #fff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+	margin-top: -5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setaEsquerda { 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 120px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 30;
+    pointer-events: auto;
+	margin-left: 2vh;
+}
+.setaDireita  {
+	margin-left: 206vh;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 38px;
+    height: 120px;
+    border: none;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.4);
+	color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 30;
+    pointer-events: auto;
+}

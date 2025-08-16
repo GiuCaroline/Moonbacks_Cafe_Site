@@ -1,6 +1,6 @@
 const carrossel = document.querySelector('.carrossel');
-const btnEsquerda = document.querySelector('.seta.esquerda');
-const btnDireita  = document.querySelector('.seta.direita');
+const btnEsquerda = document.querySelector('.setaEsquerda');
+const btnDireita  = document.querySelector('.setaDireita');
 
 let animando = false;
 
