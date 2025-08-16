@@ -1,0 +1,189 @@
+header {
+	padding-left: 1rem;
+	margin: 0 auto;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 105vh;
+}
+
+nav ul li a {
+	text-decoration: underline 1px;
+	color: #fff;
+	font-size: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 3vh;
+	align-items: left;
+}
+
+nav ul {
+	list-style: none;
+	margin-top: -7vh;
+	justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+	margin-top: 20px;
+	z-index: 1;
+}
+
+footer {
+    margin-top: 30vh;
+    background-color: #1F160E;
+    height: 62vh;
+}
+
+.informacoesFooter {
+    display: block;
+    align-items: center;
+}
+
+#line4{
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    margin-top: -8vh;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+#logoFooter {
+    width: 194px;
+    margin-left: 16vh;
+    margin-top: -2vh;
+}
+
+#moon {
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 50px;
+    margin-top: -5vh;
+    line-height: 1;
+}
+
+#sloganFooter1 {
+    font-size: 18px;
+    color: #fff;
+    margin-left: -11.5vh;
+    margin-top: 3vh;
+}
+
+#sloganFooter2 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 12vh;
+    margin-left: -23vh;
+}
+
+#contatos{
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 45px;
+    margin-left: 26vh;
+    margin-top: -3vh;
+}
+
+#conteudoContato {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 30vh;
+    margin-top: -9vh;
+}
+
+.topicos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+}
+
+#topico1 {
+    margin-left: 26vh;
+    width: 20px;
+}
+
+
+#topico2 {
+    margin-left: 26vh;
+    width: 20px;
+}
+
+#topico3 {
+    margin-left: 26vh;
+    width: 20px;
+}
+
+#horario {
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 45px;
+    margin-left: 30vh;
+    margin-top: 10vh;
+}
+
+#funcionamento {
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 45px;
+    margin-left: 25vh;
+}
+
+#conteudoFuncionamento {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-left: 30vh;
+}
+
+.redeSocial {
+    margin-left: 31vh;
+    margin-top: 1vh;
+    gap: 10px;
+}
+
+.conteudo2 {
+    margin-top: -5vh;
+    display: inline-block;
+}
+
+#line5 {
+    margin-left: 44.5vh;
+    display: block;
+    margin-top: -8vh;
+}
+
+#pagina {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 23vh;
+}
+
+.direitos{
+    display: flex;
+    align-items: center;
+    margin-left: 119vh;
+}
+
+#copy {
+    width: 30px;
+}
+
+#reservado {
+    color: #fff;
+    font-size: 25px;
+}
