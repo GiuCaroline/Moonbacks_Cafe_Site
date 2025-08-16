@@ -95,16 +95,16 @@ nav ul {
 
 #line2 {
 	display: inline;
-	margin-top: 4vh;
+	margin-top: 3vh;
 	margin-left: auto;
 }
+
 #Nossos {
 	margin-top: 1vh;
 	display: inline;
 	letter-spacing: 1.5px;
 	color: #fff;
 	font-size: 50px;
-	display: flex;
 	margin-left: 1.5vh;
 }
 
@@ -202,4 +202,151 @@ nav ul {
     cursor: pointer;
     z-index: 30;
     pointer-events: auto;
+}
+
+.eventos {
+    margin-top: 18vh;
+    margin-left: 15vh;
+}
+
+#tituloEventos {
+    display: flex;
+    align-items: center;
+}
+
+#calendario {
+    width: 42px;
+}
+
+#casa {
+    text-decoration: underline 1px;
+    color: #fff;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#line3 {
+    width: 1px;
+    height: 36px;
+    margin-left: 3vh;
+    margin-top: 2vh;
+}
+
+#livro {
+    width: 45px;
+    height: 550px;
+    margin-left: -2px;
+}
+
+.linhaTempo {
+    display: flex;
+    flex-direction: column;
+}
+
+.acontecimentos {
+    display: inline-flex;
+}
+
+#noites {
+    text-decoration: underline 1px;
+    color: #fff;
+    font-size: 35px;
+    margin-top: 7vh;
+    margin-left: 2vh;
+}
+
+#data {
+    color: #fff;
+    font-size: 20px;
+    margin-top: -1vh;
+    margin-left: 2vh;
+}
+
+#complemento {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 2vh;
+    margin-top: 5px;
+}
+
+#lancamento {
+    text-decoration: underline 1px;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 2vh;
+    margin-top: 1vh;
+}
+
+#baile {
+    text-decoration: underline 1px;
+    color: #fff;
+    font-size: 35px;
+    margin-left: 2vh;
+    margin-top: 2vh;
+}
+
+#fachada{
+    margin-left: 20vh;
+}
+
+footer {
+    margin-top: 30vh;
+    background-color: #1F160E;
+    height: 70vh;
+}
+
+.informacoesFooter {
+    display: block;
+    align-items: center;
+}
+
+#line4{
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+}
+
+#logoFooter {
+    width: 194px;
+    margin-left: 16vh;
+    margin-top: -2vh;
+}
+
+#moon {
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 50px;
+    margin-top: -5vh;
+    line-height: 1;
+}
+
+#sloganFooter1 {
+    font-size: 18px;
+    color: #fff;
+    margin-left: -11.5vh;
+    margin-top: 3vh;
+}
+
+#sloganFooter2 {
+    font-size: 18px;
+    color: #fff;
+    margin-top: 12vh;
+    margin-left: -23vh;
+}
+
+#contatos{
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 45px;
+    margin-left: 26vh;
+    margin-top: -9.5vh;
 }
