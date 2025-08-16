@@ -22,11 +22,11 @@
     margin-top: 10vh;
 }
 
-#coffee {
+#icon {
     width: 40px;
 }
 
-#subtitulo1 {
+#subtitulo {
     color: #fff;
     font-size: 40px;
     margin-left: 2vh;
@@ -34,7 +34,7 @@
 
 .carrossel-container {
     position: relative;
-    width: 100%;
+    width: 80%;
     margin: auto;
 	overflow: hidden;
     display: block;
@@ -44,7 +44,7 @@
 .carrossel {
     margin-top: 5vh;
     display: flex;
-    gap: 30px;
+    gap: 70px;
     transition: transform 0.3s ease-in-out;
     will-change: transform;
 }
