@@ -167,7 +167,7 @@ footer {
 }
 
 #line5 {
-    margin-left: 44.5vh;
+    margin-left: 21vw;
     display: block;
     margin-top: -8vh;
 }
@@ -181,7 +181,7 @@ footer {
 .direitos{
     display: flex;
     align-items: center;
-    margin-left: 119vh;
+    margin-left: 55vw;
 }
 
 #copy {

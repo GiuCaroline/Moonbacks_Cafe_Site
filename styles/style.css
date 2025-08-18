@@ -28,7 +28,7 @@ body{
 	z-index: 1;
 	font-size: 31px;
 	margin-top: -6vh;
-	margin-left: 82vh;
+	margin-left: 38vw;
 }
 
 #btnSaibaMais {
@@ -36,7 +36,7 @@ body{
 	padding: 20px;
 	padding-left: 110px;
 	padding-right: 110px;
-	margin-left: 150vh;
+	margin-left: 69vw;
 	margin-top: 90px;
 	background-color: rgba(192, 192, 192, 0.4);
 	font-family: 'Forum';
@@ -67,7 +67,7 @@ body{
 	letter-spacing: 1.5px;
 	color: #fff;
 	font-size: 50px;
-	margin-left: 1.5vh;
+	margin-left: 0.5vw;
 }
 
 .favoritos {
@@ -90,7 +90,7 @@ body{
 .carrossel {
     margin-top: 5vh;
     display: flex;
-    gap: 30px;
+    gap: 50px;
     transition: transform 0.3s ease-in-out;
     will-change: transform;
 }
@@ -145,10 +145,10 @@ body{
     cursor: pointer;
     z-index: 30;
     pointer-events: auto;
-	margin-left: 2vh;
+	margin-left: 1vw;
 }
 .setaDireita  {
-	margin-left: 206vh;
+	margin-left: 95vw;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -214,20 +214,20 @@ body{
     color: #fff;
     font-size: 35px;
     margin-top: 7vh;
-    margin-left: 2vh;
+    margin-left: 1vw;
 }
 
 #data {
     color: #fff;
     font-size: 20px;
     margin-top: -1vh;
-    margin-left: 2vh;
+    margin-left: 1vw;
 }
 
 #complemento {
     color: #fff;
     font-size: 22px;
-    margin-left: 2vh;
+    margin-left: 1vw;
     margin-top: 5px;
 }
 
@@ -235,7 +235,7 @@ body{
     text-decoration: underline 1px;
     color: #fff;
     font-size: 35px;
-    margin-left: 2vh;
+    margin-left: 1vw;
     margin-top: 1vh;
 }
 
@@ -243,7 +243,7 @@ body{
     text-decoration: underline 1px;
     color: #fff;
     font-size: 35px;
-    margin-left: 2vh;
+    margin-left: 1vw;
     margin-top: 2vh;
 }
 

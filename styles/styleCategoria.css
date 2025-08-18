@@ -1,0 +1,185 @@
+body {
+    background-image: url("../imagens/fundoReceita.png");
+    background-size: cover;    
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "Forum";
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    position: relative; 
+}
+
+#logoPreta {
+	display: inline-flex;
+    padding-top: 10px;
+    padding-left: 10vh;
+}
+
+#titulo {
+	display: inline-flex;
+    font-family: 'Kapakana';
+    font-size: 130px;
+}
+
+.search-wrapper {
+    position: absolute;
+    top: 40px;  
+    right: 50px;
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.search-container {
+    position: relative;
+    display: inline-flex;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px 45px;
+    border: 1.5px solid #000;
+    border-radius: 25px;
+    background: transparent;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Forum';
+}
+
+.search-container .icon-left {
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.btn-seta {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#deguste {
+    font-size: 25px;
+    margin-left: 16vw;
+    margin-top: 5vh;
+}
+
+.decoracao {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.conteudo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 12vw;
+}
+
+#tituloReceita {
+    font-size: 45px;
+    margin-top: 13vh;
+}
+
+#texto {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 25px;
+}
+
+#ingredientes {
+    margin-top: 3vh;
+    font-size: 45px;
+}
+
+#ingredi {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 25px;
+}
+
+#preparo {
+    margin-top: 3vh;
+    font-size: 45px;
+}
+
+#modo {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 25px;
+}
+
+#imagem {
+    margin-left: 2vw;
+    margin-top: 14vh;
+}
+
+#imagem2 {
+    margin-left: 4vw;
+    margin-top: 14vh;
+}
+
+#imagem3 {
+    margin-left: 6vw;
+    margin-top: 14vh;
+}
+
+#imagem4 {
+    margin-left: 8vw;
+    margin-top: 14vh;
+}
+
+.dica-chef-container {
+    border: 1.5px solid #000;
+    padding: 40px 80px;
+    max-width: 72vw; 
+    text-align: center; 
+    position: relative;
+    margin-left: 14vw;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+}
+
+.dica-titulo {
+    font-size: 45px;
+    margin-top: -5vh;
+    margin-bottom: 3vh;
+}
+
+.dica-subtitulo {
+    font-size: 25px;
+    margin: 0;
+}
+
+.corner {
+    position: absolute;
+    width: 60px;
+    height: auto; 
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+    transform: scaleX(-1);
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+    transform: scaleY(-1);
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+    transform: scale(-1, -1);
+}

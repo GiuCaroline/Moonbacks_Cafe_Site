@@ -1,0 +1,75 @@
+body{
+    background-color: #433B34;
+    font-family: "Forum";
+}
+
+#logo{
+    display: flex;
+	margin-top: 10vh;
+	z-index: 1;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo {
+    font-family: 'Kapakana';
+    color: #fff;
+    font-size: 150px;
+}
+
+.textos{
+    display: flex;    
+    justify-content: center;
+}
+
+#texto {
+    margin-top: 5vh;
+    font-size: 30px;
+    color: #fff;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 8vw;
+    margin-top: 5vh;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px 45px;
+    border: 1.5px solid #fff;
+    border-radius: 25px;
+    background: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Forum';
+}
+
+.search-container .icon-left {
+    position: absolute;
+    top: 55%;
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+#livros {
+    margin-top: 10vh;
+    margin-bottom: -12vh;
+    margin-left: 8vw;
+    font-size: 50px;
+    color: #fff;
+}
+
+.line{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
